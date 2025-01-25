@@ -9,6 +9,8 @@ def fizzbuzz(num):
     print(f"{num}: fizz")
   if num % 5 == 0: # edit this line
     print(f"{num}: buzz")
+  if num % 15 == 0: # edit this line
+    print(f"{num}: fizzbuzz")
 
 for i in range(1, 20):
   fizzbuzz(i)
